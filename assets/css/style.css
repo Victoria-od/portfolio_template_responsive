@@ -1,0 +1,274 @@
+.general-text {
+  font-size: 13px;
+  font-family: "Arial";
+  color: #8a8a8a;
+  line-height: 1.538;
+  text-align: left; }
+
+.portfolio-page {
+  background: url("../img/portfolio_bg.png");
+  background-size: cover; }
+
+.contact-page {
+  background: url("../img/contact.jpg");
+  background-size: cover; }
+
+.about-page {
+  background: url("../img/about.png");
+  background-size: cover; }
+
+.news-page {
+  background: url("../img/news_bg.jpg");
+  background-size: cover; }
+
+.site-area {
+  background: url("../img/mask_p.png");
+  background-repeat: repeat; }
+
+header {
+  padding: 30px 0;
+  background: rgba(0, 0, 0, 0.8); }
+
+.main-menu {
+  text-align: right; }
+  .main-menu li {
+    display: inline-block;
+    padding-left: 26px; }
+  .main-menu a {
+    font-size: 16px;
+    font-family: 'Amaranth', sans-serif;
+    color: #a7a7a7;
+    line-height: 0;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.55);
+    text-decoration: none; }
+  .main-menu a:hover {
+    color: #97803d; }
+
+main {
+  margin-top: 41px;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+  overflow: hidden; }
+
+.page-title {
+  overflow: hidden; }
+  .page-title h1 {
+    font-size: 20px;
+    font-family: 'Amaranth', sans-serif;
+    color: #97803d;
+    font-variant: small-caps;
+    line-height: 1;
+    margin: 0;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 20px; }
+  .page-title:after {
+    position: absolute;
+    float: left;
+    content: '';
+    height: 7px;
+    width: 86.5%;
+    top: 30px;
+    margin-left: 23px;
+    background: url("../img/lines.png"); }
+
+div.page-title {
+  overflow: hidden; }
+
+.portfolio-wrap {
+  background-image: url("../img/mask.png");
+  background-repeat: repeat; }
+  .portfolio-wrap .portfolio-image {
+    background: url("../img/img_bg.png");
+    padding: 7px;
+    margin-bottom: 33px; }
+    .portfolio-wrap .portfolio-image img {
+      width: 100%;
+      height: auto; }
+
+.tabs-prev, .tabs-next {
+  font-size: 14px;
+  line-height: 0;
+  font-family: 'Amaranth', sans-serif;
+  color: #97803d;
+  font-style: italic; }
+
+.tabs-prev:hover, .tabs-next:hover {
+  color: #a7a7a7; }
+
+.tabs-prev:after {
+  content: '|';
+  padding-left: 13px;
+  padding-right: 13px;
+  font-size: 14px;
+  font-family: 'Amaranth', sans-serif;
+  color: #97803d;
+  font-weight: 400;
+  font-style: normal; }
+
+.copywrite {
+  font-size: 11px;
+  font-family: "Arial";
+  color: #dfdfdf;
+  line-height: 2.455;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.44);
+  padding-top: 14px;
+  padding-bottom: 200px; }
+
+.about-title h1 {
+  color: #8a9d54; }
+
+.image-wrap {
+  background-image: url("../img/mask.png");
+  background-repeat: repeat; }
+  .image-wrap .about-image {
+    background: url("../img/about_bg_img.png");
+    background-repeat: no-repeat;
+    padding: 7px;
+    margin-bottom: 15px; }
+    .image-wrap .about-image img {
+      width: 100%;
+      max-width: 236px;
+      height: auto; }
+
+.about-content {
+  margin-left: -15px; }
+  .about-content h3 {
+    font-size: 15px;
+    font-family: 'Amaranth', sans-serif;
+    color: #8a9d54;
+    line-height: 1.333; }
+  .about-content p {
+    font-size: 13px;
+    font-family: "Arial";
+    color: #8a8a8a;
+    line-height: 1.538;
+    text-align: left; }
+  .about-content li {
+    font-size: 13px;
+    font-family: "Arial";
+    color: #8a8a8a;
+    line-height: 1.538;
+    text-align: left; }
+
+.news-page .page-title {
+  overflow: hidden; }
+  .news-page .page-title h1 {
+    font-size: 20px;
+    font-family: 'Amaranth', sans-serif;
+    color: #8a9d54;
+    font-variant: small-caps;
+    line-height: 1;
+    margin: 0;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 20px; }
+  .news-page .page-title:after {
+    position: absolute;
+    float: left;
+    content: '';
+    height: 7px;
+    width: 90%;
+    top: 30px;
+    margin-left: 23px;
+    background: url("../img/lines.png"); }
+
+.news-page .news-photo {
+  padding-top: 5px;
+  width: 70px; }
+  .news-page .news-photo img {
+    width: 100%;
+    height: auto; }
+
+.news-page .news-block {
+  padding-top: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  margin-bottom: 3px;
+  padding-right: 57px; }
+  .news-page .news-block h3 a {
+    font-size: 15px;
+    font-family: 'Amaranth', sans-serif;
+    color: #8a9d54;
+    text-decoration: none; }
+  .news-page .news-block p {
+    font-size: 13px;
+    font-family: "Arial";
+    color: #8a8a8a;
+    line-height: 1.538; }
+
+.news-page .pagination_news {
+  font-size: 14px;
+  font-family: 'Amaranth', sans-serif;
+  color: #8a9d54;
+  font-style: italic;
+  line-height: 1; }
+
+.news-page .page-switch {
+  padding: 0;
+  padding-top: 20px; }
+
+.news-page .tabs-prev, .news-page .tabs-next {
+  color: #8a9d54; }
+
+.news-page .tabs-prev:after {
+  color: #8a9d54; }
+
+.news-page .tabs-prev:hover, .news-page .tabs-next:hover {
+  color: #8a8a8a; }
+
+.social-links {
+  margin-left: 0;
+  width: 100%;
+  font-size: 0; }
+  .social-links li {
+    font-size: 0;
+    display: inline-block;
+    font-size: 0;
+    margin-bottom: 10px; }
+  .social-links img {
+    max-width: 32px;
+    width: 100%;
+    height: auto; }
+  .social-links img:hover {
+    opacity: .7; }
+
+.contact-page .content {
+  font-size: 13px;
+  font-family: "Arial";
+  color: #8a8a8a;
+  line-height: 1.538; }
+
+.contact-form label {
+  font-size: 13px;
+  font-family: "Arial";
+  color: #8a8a8a; }
+
+.contact-form .form-input, .contact-form .form-text {
+  color: #8a8a8a;
+  background: rgba(0, 0, 0, 0.7);
+  border: none; }
+
+.button {
+  background: -moz-linear-gradient(90deg, #7c9358 0%, #5b7237 100%);
+  background: -webkit-linear-gradient(90deg, #7c9358 0%, #5b7237 100%);
+  background: -ms-linear-gradient(90deg, #7c9358 0%, #5b7237 100%);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.55), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.22);
+  color: #1b1b1b;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 13px;
+  line-height: 1.077; }
+
+.contact-page .page-title {
+  color: #8a9d54; }
+
+.contact-sidebar h3 a {
+  font-size: 15px;
+  font-family: 'Amaranth', sans-serif;
+  color: #8a9d54;
+  text-decoration: none; }
